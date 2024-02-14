@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5Fty10TKE1/US+InJkQ612FeFJUIvFD+Yqmq6DLj7+fYqqY3TXfSygWBNmUcFtXE+N9s1mXWuAM1Ntl9bqYsWA==",
+  "dgSpecHash": "W5DW3p1AdOCY+/P9rGza/NNzp5sEublECH4L5cfgWJ17UrmFkNnPvQEggTsyuJoMZmOchFaOGJL3L5YXg6C+NQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Abdud Daiyaan Khan\\Desktop\\HangmanAssignmentSln\\HangmanAssignment\\HangmanAssignment.csproj",
+  "projectFilePath": "C:\\MyFirstNet\\HangmanRemake\\Hangmam_Remake\\HangmanAssignment\\HangmanAssignment.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Abdud Daiyaan Khan\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\Abdud Daiyaan Khan\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",

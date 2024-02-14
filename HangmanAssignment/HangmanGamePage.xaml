@@ -25,30 +25,27 @@
                 WidthRequest="100"
                 Clicked="ResetClicked"
                 BackgroundColor="Red"/>
-            <Frame
-                Margin="25"
-                Padding="20"
-                BorderColor="Transparent">
-              <FlexLayout
-                x:Name="Alphabet"
-                Grid.Row="3"
-                JustifyContent="Center"
-                BindableLayout.ItemsSource="{Binding Letters}"
-                Wrap="Wrap">
-                <BindableLayout.ItemTemplate>
-                    <DataTemplate>
-                        <Button
-                            BackgroundColor="Orange"
-                            BorderColor="Transparent"
-                            TextColor="Black"
-                            HeightRequest="60"
-                            Text="{Binding .}"
-                            WidthRequest="60"
-                            Clicked="Button_Clicked"/>
-                    </DataTemplate>
-                </BindableLayout.ItemTemplate>
-              </FlexLayout>
-            </Frame>
+            <Label FontSize="Medium"
+                   HorizontalTextAlignment="Center"
+                   Text="{Binding IncorrectGuesses}"/>
+            <Entry Keyboard="Text"
+                   x:Name="GuessBox"
+                   Placeholder="Enter Your Guess Here"
+                   BackgroundColor="Transparent"
+                   HorizontalTextAlignment="Center"
+                   Opacity="100"
+                   TextColor="Black"
+                   WidthRequest="200"
+                   MaxLength="1"
+                   HorizontalOptions="Center"/>
+            <Button
+                HorizontalOptions="Center"
+                Text="Guess"
+                x:Name="GuessBtn"
+                WidthRequest="100"
+                Clicked="Button_Clicked_1"
+                BackgroundColor="LightSteelBlue"
+                TextColor="Black"/>
         </VerticalStackLayout>
     </Grid>
 

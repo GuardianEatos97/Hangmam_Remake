@@ -32936,11 +32936,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Abdud Daiyaan Khan\\Desktop\\HangmanAssignmentSln\\HangmanAssignment\\HangmanAssignment.csproj",
+      "projectUniqueName": "C:\\MyFirstNet\\HangmanRemake\\Hangmam_Remake\\HangmanAssignment\\HangmanAssignment.csproj",
       "projectName": "HangmanAssignment",
-      "projectPath": "C:\\Users\\Abdud Daiyaan Khan\\Desktop\\HangmanAssignmentSln\\HangmanAssignment\\HangmanAssignment.csproj",
+      "projectPath": "C:\\MyFirstNet\\HangmanRemake\\Hangmam_Remake\\HangmanAssignment\\HangmanAssignment.csproj",
       "packagesPath": "C:\\Users\\Abdud Daiyaan Khan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Abdud Daiyaan Khan\\Desktop\\HangmanAssignmentSln\\HangmanAssignment\\obj\\",
+      "outputPath": "C:\\MyFirstNet\\HangmanRemake\\Hangmam_Remake\\HangmanAssignment\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
