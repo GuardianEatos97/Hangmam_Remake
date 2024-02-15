@@ -13,7 +13,7 @@ public partial class HangmanGamePage : ContentPage, INotifyPropertyChanged
         PickWord();
         CalculateWord(answer, guessed);
     }
-
+    #region UserInterface
     public string Spotlight
     {
         get => spotlight;
@@ -71,6 +71,9 @@ public partial class HangmanGamePage : ContentPage, INotifyPropertyChanged
             OnPropertyChanged();
         }
     }
+    #endregion
+
+    #region WordList
     List<string> words = new()
     {
             "HAPPINESS",
@@ -93,7 +96,7 @@ public partial class HangmanGamePage : ContentPage, INotifyPropertyChanged
             "HELLFIRE",
     };
    
-        string answer = "";
+    private string answer = "";
     private string spotlight;
     private List<char> guessed = new();
     private List<char> letters = new();
@@ -103,7 +106,8 @@ public partial class HangmanGamePage : ContentPage, INotifyPropertyChanged
     private string incorrectGuesses;
     private string gameStatus;
     private string Image = "hang1.png";
-
+    #endregion
+    #region Functionality
     private void ResetClicked(object sender, EventArgs e)
     {
         mistakes = 0;
@@ -215,5 +219,6 @@ public partial class HangmanGamePage : ContentPage, INotifyPropertyChanged
         GuessBox.Text = string.Empty;
         
     }
+    #endregion
 }
 
