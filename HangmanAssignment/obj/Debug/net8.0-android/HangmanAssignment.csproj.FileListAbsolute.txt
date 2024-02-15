@@ -1746,7 +1746,6 @@ C:\MyFirstNet\HangmanRemake\Hangmam_Remake\HangmanAssignment\obj\Debug\net8.0-an
 C:\MyFirstNet\HangmanRemake\Hangmam_Remake\HangmanAssignment\obj\Debug\net8.0-android\android\src\crc645d80431ce5f73f11\CarouselSpacingItemDecoration.java
 C:\MyFirstNet\HangmanRemake\Hangmam_Remake\HangmanAssignment\obj\Debug\net8.0-android\android\src\crc645d80431ce5f73f11\CarouselViewAdapter_2.java
 C:\MyFirstNet\HangmanRemake\Hangmam_Remake\HangmanAssignment\obj\Debug\net8.0-android\android\src\crc645d80431ce5f73f11\CarouselViewOnScrollListener.java
-C:\MyFirstNet\HangmanRemake\Hangmam_Remake\HangmanAssignment\obj\Debug\net8.0-android\android\src\crc645d80431ce5f73f11\CarouselViewwOnGlobalLayoutListener.java
 C:\MyFirstNet\HangmanRemake\Hangmam_Remake\HangmanAssignment\obj\Debug\net8.0-android\android\src\crc645d80431ce5f73f11\CenterSnapHelper.java
 C:\MyFirstNet\HangmanRemake\Hangmam_Remake\HangmanAssignment\obj\Debug\net8.0-android\android\src\crc645d80431ce5f73f11\DataChangeObserver.java
 C:\MyFirstNet\HangmanRemake\Hangmam_Remake\HangmanAssignment\obj\Debug\net8.0-android\android\src\crc645d80431ce5f73f11\EdgeSnapHelper.java
@@ -2091,3 +2090,4 @@ C:\MyFirstNet\HangmanRemake\Hangmam_Remake\HangmanAssignment\obj\Debug\net8.0-an
 C:\MyFirstNet\HangmanRemake\Hangmam_Remake\HangmanAssignment\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 C:\MyFirstNet\HangmanRemake\Hangmam_Remake\HangmanAssignment\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\MyFirstNet\HangmanRemake\Hangmam_Remake\HangmanAssignment\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\MyFirstNet\HangmanRemake\Hangmam_Remake\HangmanAssignment\obj\Debug\net8.0-android\android\src\crc645d80431ce5f73f11\MauiCarouselRecyclerView_CarouselViewOnGlobalLayoutListener.java

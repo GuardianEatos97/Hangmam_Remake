@@ -123,16 +123,20 @@ public partial class HangmanGamePage : ContentPage, INotifyPropertyChanged
 
     private void PickWord()
     {
-        answer =
-            words[new Random().Next(0, words.Count)];
+        answer = words[new Random().Next(words.Count)];
     }
 
     private void CalculateWord(string answer, List<char> guessed)
     {
-        var temp =
-            answer.Select(x => (guessed.IndexOf(x) >= 0 ? x : '_')).ToArray();
+        var temp = new char[answer.Length];
 
-        Spotlight = string.Join(" ", temp);
+        for (int i = 0; i < answer.Length; i++)
+        {
+            char letter = answer[i];
+            temp[i] = guessed.Contains(letter) ? letter : '_';
+        }
+
+        Spotlight = string.Join(" ",temp);
     }
 
     private void HandleGuess(char letter)
