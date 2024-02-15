@@ -176,7 +176,7 @@ public partial class HangmanGamePage : ContentPage, INotifyPropertyChanged
     {
         if (Spotlight.Replace(" ", "") == answer)
         {
-            Message = "You Win";
+            Message = "Congratulations!!";
             DisableGuessBox();
         }
     }
@@ -185,7 +185,7 @@ public partial class HangmanGamePage : ContentPage, INotifyPropertyChanged
     {
         if (mistakes == maxWrong)
         {
-            Message = "You Lose!!";
+            Message = "You Lost, It's Okay... Try Again :(";
             Spotlight = answer;
             DisableGuessBox();
         }

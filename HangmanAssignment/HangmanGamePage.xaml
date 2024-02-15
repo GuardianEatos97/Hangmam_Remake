@@ -2,11 +2,8 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HangmanAssignment.HangmanGamePage"
-             >
-    
-
-    <Grid RowDefinitions=".8*,.3*">
-        <VerticalStackLayout>
+             Title="HangMan GamePage">
+    <VerticalStackLayout>
             <Label Text="Let's Get Hanged, Man!" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontAttributes="Bold" FontSize="40" Margin="20" Padding="50"/>
             <Image HeightRequest="200" Source="{Binding CurrentImage}"/>
             <Label 
@@ -28,20 +25,22 @@
                 Margin="5"
                 Clicked="ResetClicked"
                 BackgroundColor="Red"/>
-            <Label FontSize="Medium"
-                   HorizontalTextAlignment="Center"
-                   Margin="5"
-                   Text="{Binding IncorrectGuesses}"/>
-            <Entry Keyboard="Text"
-                   x:Name="GuessBox"
-                   Placeholder="Enter Your Guess Here"
-                   BackgroundColor="Transparent"
-                   HorizontalTextAlignment="Center"
-                   Opacity="100"
-                   TextColor="Black"
-                   WidthRequest="200"
-                   MaxLength="1"
-                   HorizontalOptions="Center"/>
+            <Label 
+                FontSize="Medium"
+                HorizontalTextAlignment="Center"
+                Margin="5"
+                Text="{Binding IncorrectGuesses}"/>
+            <Entry 
+                Keyboard="Text"
+                x:Name="GuessBox"
+                Placeholder="Enter Your Guess Here"
+                BackgroundColor="Transparent"
+                HorizontalTextAlignment="Center"
+                Opacity="100"
+                TextColor="Black"
+                WidthRequest="200"
+                MaxLength="1"
+                HorizontalOptions="Center"/>
             <Button
                 HorizontalOptions="Center"
                 Text="Guess"
@@ -50,8 +49,5 @@
                 Clicked="Button_Clicked_1"
                 BackgroundColor="LightSteelBlue"
                 TextColor="Black"/>
-        </VerticalStackLayout>
-    </Grid>
-
-
-</ContentPage>
+    </VerticalStackLayout>
+ </ContentPage>
